@@ -1,0 +1,93 @@
+.citizen-main {
+    background-image: url("/assets/images/citizen\ bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 537.66px;
+}
+
+.citizen-background {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.citizen-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.citizen-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* .citizen-section {
+    padding-top: 100px;
+    margin-bottom: 100px;
+} */
+
+.citizen-top {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.citizen-head {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 53px;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+.citizen-para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+
+.citizen1 {
+    position: relative;
+    flex: 1 1 350px;
+
+}
+
+.citizen1 img {
+    width: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.citizen-cards-head {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.9969px;
+    line-height: 37px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.citizen-cards-rows {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
