@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.jobs-main {
+    background-image: url("/assets/images/citizen\ bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 537.66px;
+}
+
+.jobs-background {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.jobs-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.jobs-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.jobs-top {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.jobs-head {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 53px;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+.jobs-para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #4F4F4F;
+    margin-bottom: 50px;
+}
+
+.section-jobs-container {
+    display: flex;
+    gap: 20px;
+    /* max-width: 1280px; */
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+
+
+
+
+}
+
+.jobs-cards-main-container {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    max-width: 305px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex: 1 1 280px;
+    /* flex-wrap: wrap; */
+    
+}
+
+
+
+.jobs-cards-main-1 {
+    display: flex;
+    justify-content: space-between;
+    /* flex: 1 1 200px; */
+    margin-top: 30px;
+}
+
+.jobs-cards-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #333333;
+
+}
+
+.jobs-cards-right-para {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.jobs-cards-main-paragraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #333333;
+    margin-top: 30px;
+}
+
+.jobs-cards-main-button {
+    display: flex;
+    max-width: 275px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    margin-top: 22px;
+}
+
+button.jobs-left-button {
+    border: 1px solid #2A8E58;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10.5px 38px;
+    background: #FFFFFF;
+
+    color: #009846;
+
+}
+
+
+button.jobs-right-button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D9D9D9;
+    background: #2A8E58;
+    border-radius: 10px;
+    padding: 10.5px 22px;
+
+}
+
+button.jobs-last-button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.6923px;
+    line-height: 27px;
+    color: #2A8E58;
+    margin-top: 50px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
