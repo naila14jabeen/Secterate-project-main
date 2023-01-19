@@ -77,7 +77,7 @@
     padding-right: 15px;
     flex: 1 1 280px;
     /* flex-wrap: wrap; */
-    
+
 }
 
 
@@ -97,6 +97,15 @@
     line-height: 27px;
     color: #333333;
 
+}
+
+.jobs-cards-left-para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
 }
 
 .jobs-cards-right-para {
@@ -174,4 +183,68 @@ button.jobs-last-button {
     justify-content: center;
     width: 100%;
     margin-bottom: 100px;
+}
+
+.jobs-last-button i {
+    padding-left: 5px;
+}
+
+@media(max-width:550px) {
+    .jobs-logo img {
+        width: 300px;
+    }
+
+    .jobs-heading {
+        font-size: 20px;
+
+    }
+
+    .jobs-head {
+        font-size: 40px;
+    }
+
+    .jobs-para {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .jobs-cards-heading {
+        font-size: 20px;
+    }
+
+    .jobs-cards-right-para {
+        font-size: 18px;
+    }
+    .jobs-cards-left-para {
+        font-size: 14px;
+    }
+    button.jobs-last-button {
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:400px){
+        .jobs-section.max-width{
+        padding-left: 40px;
+        padding-right: 40px;
+    } 
+    .jobs-cards-main-container{
+        max-width: 100%;
+    }
+} 
+@media(max-width:450px){
+    button.jobs-left-button {
+        font-size: 14px;
+        padding: 6.5px 25px;
+    
+    }
+    
+    
+    button.jobs-right-button {
+        font-size: 14px;
+        padding: 6.5px 16px;
+    
+    }
 }
